@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz WebApp</title>
+    
+</head>
+<body class="bg-[#262525] flex items-center justify-center">
+    <div class="app bg-[white] sm:w-[400px] w-auto h-auto sm:m-[100px] mt-[100px] rounded-[10px] shadow-blue-600 p-[30px] border-[3px] border-[#17d2dc]">
+        <h1 class="text-[#151540] text-[25px] font-bold pb-[10px] border-b-[1px] border-b-[black] text-center">Simple Quiz</h1>
+        
+        <div class="quiz py-[20px] flex flex-col">
+            
+            <h2 id="question" class="text-[20px] font-semibold text-[#001e4d]">Question goes here</h2>
+            
+            <div id="answer-buttons" class="flex flex-col">
+                <!-- <button class="btn bg-[#eeecec] text-[#222] w-100% border-[1px] border-[#222] rounded-[4px] px-[10px] py-[5px] my-[10px] text-left cursor-pointer hover:bg-[#222] hover:text-[white] transition-colors duration-300">ans1</button>
+                <button class="btn bg-[#eeecec] text-[#222] w-100% border-[1px] border-[#222] rounded-[4px] px-[10px] py-[5px] my-[10px] text-left cursor-pointer hover:bg-[#222] hover:text-[white] transition-colors duration-300">ans2</button>
+                <button class="btn bg-[#eeecec] text-[#222] w-100% border-[1px] border-[#222] rounded-[4px] px-[10px] py-[5px] my-[10px] text-left cursor-pointer hover:bg-[#222] hover:text-[white] transition-colors duration-300">ans3</button>
+                <button class="btn bg-[#eeecec] text-[#222] w-100% border-[1px] border-[#222] rounded-[4px] px-[10px] py-[5px] my-[10px] text-left cursor-pointer hover:bg-[#222] hover:text-[white] transition-colors duration-300">ans4</button> -->
+                <button class="btn"></button>
+                <button class="btn"></button>
+                <button class="btn"></button>
+                <button class="btn"></button>
+            </div>
+            <div class="flex items-center justify-center">
+            <button id="next-btn" class="bg-[#001e4d] text-[white] w-[150px] rounded-[4px] p-[7px] mt-[10px] font-semibold">Next</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
